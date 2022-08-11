@@ -68,12 +68,12 @@ func (r *Resolver) run() {
 			continue
 		}
 
-		err = r.hijack()
+		// err = r.hijack()
 
-		if err != nil {
-			logrus.WithError(err).Error("error hijacking dns config")
-			continue
-		}
+		// if err != nil {
+		// 	logrus.WithError(err).Error("error hijacking dns config")
+		// 	continue
+		// }
 	}
 }
 
